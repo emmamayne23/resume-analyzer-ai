@@ -13,10 +13,8 @@
   </div>
 
   <h3 align="center">AI Resume Analyzer</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <p>AI Resume Analyzer
+A modern, AI-powered resume analyzer built with React, TypeScript, Vite, and Puter.js. Upload, store, and analyze resumes, get ATS scores, and receive actionable feedback—all in a sleek, responsive UI.</p>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -25,14 +23,9 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+5. 🔗 [Project Structure](#structure)
+6. 🚀 [Contributing](#contributing)
 
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
 <a href="https://www.youtube.com/watch?v=iYOz165wGkQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
@@ -115,21 +108,28 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
-## <a name="links">🔗 Assets</a>
+## <a name="structure">🔗 Project Structure</a>
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/resumind-kit)**.
+.
+├── app/
+│   ├── components/      # UI components (Accordion, ATS, FileUploader, etc.)
+│   ├── lib/             # Utility libraries (pdf2img, puter, utils)
+│   ├── routes/          # Route components (auth, home, resume, upload, wipe)
+│   ├── app.css
+│   ├── root.tsx
+│   └── routes.ts
+├── constants/           # Shared constants
+├── public/              # Static assets (icons, images, pdf.worker)
+├── types/               # TypeScript type definitions
+├── Dockerfile
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 
-<a href="https://jsm.dev/resumind-kit" target="_blank">
-  <img src="public/readme/videokit.webp" alt="Video Kit Banner">
-</a>
+## <a name="contributing">🚀 Contributing</a>
 
-## <a name="more">🚀 More</a>
+Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
 
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsm.dev/resumind-courses" target="_blank">
-  <img src="public/readme/jsmpro.webp" alt="Project Banner">
-</a>
+## License
+This project is licensed under the MIT License.
