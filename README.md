@@ -110,6 +110,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 ## <a name="structure">🔗 Project Structure</a>
 
+```
 .
 ├── app/
 │   ├── components/      # UI components (Accordion, ATS, FileUploader, etc.)
@@ -126,6 +127,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
+```
 
 ## <a name="contributing">🚀 Contributing</a>
 
